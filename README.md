@@ -14,11 +14,12 @@ The included Terraform code will deploy 1 PUBLIC Amazon API Gateway (without any
 
 1. Clone down this repository
 ```
+git clone git@github.com:spitzzz/demo-persistent-api.git
 ```
 
 2. cd into the newly cloned repository directory
 ```
-cd <>
+cd demo-persistent-api
 ```
 
 3. Initialize Terraform
@@ -87,7 +88,7 @@ Example Object:
 
 1. cd into repository you cloned the code
 ```
-cd <>
+cd demo-persistent-api
 ```
 
 2. Run Terraform Destroy
