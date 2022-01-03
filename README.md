@@ -9,6 +9,7 @@ The included Terraform code will deploy 1 PUBLIC Amazon API Gateway (without any
 ## Requirements
 - Terraform installed w/ versions >= `v1.0.10`
 - Valid AWS Credentials configured locally for Terraform to utilize
+- Python >= `3.10.1`
 
 ## How to Deploy
 
