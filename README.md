@@ -41,20 +41,20 @@ After a successful Terraform apply, you should receive the `api_invoke_url` as a
 Build a `POST` request with the `body` of the request following this format:
 ```
  {
-     'id': string || number,
-     'date': string,
-     'type': string,
-     'data': string
+     "id": string || number,
+     "date": string,
+     "type": string,
+     "data": string
  }
 ```
 
 Example Object:
 ```
  {
-     'id': 1,
-     'date': "2022-01-02T23:48:59+0000",
-     'type': "info",
-     'data': "test"
+     "id": 1,
+     "date": "2022-01-02T23:48:59+0000",
+     "type": "info",
+     "data": "test"
  }
  ```
 
@@ -63,22 +63,22 @@ Example Object:
 ```
 [
     {
-        'id': 1,
-        'date': "2022-01-02T23:48:59+0000",
-        'type': "info",
-        'data': "test"
+        "id": 1,
+        "date": "2022-01-02T23:48:59+0000",
+        "type": "info",
+        "data": "test"
     },
     {
-        'id': 2,
-        'date': "2022-01-02T23:48:59+0000",
-        'type': "error",
-        'data': "uh oh"
+        "id": 2,
+        "date": "2022-01-02T23:48:59+0000",
+        "type": "error",
+        "data": "uh oh"
     },
     {
-        'id': 3,
-        'date': "2022-01-02T23:48:59+0000",
-        'type': "info",
-        'data': "test2"
+        "id": 3,
+        "date": "2022-01-02T23:48:59+0000",
+        "type": "info",
+        "data": "test2"
     }
 ]
  ```
